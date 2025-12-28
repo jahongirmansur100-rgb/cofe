@@ -1,0 +1,185 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  max-width: 1220px;
+  margin: 0 auto;
+}
+header {
+  background-color: #f3d7b7;
+  padding: 30px 0;
+}
+
+header .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+nav ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+nav ul li a {
+  text-decoration: none;
+  color: black;
+}
+
+.hero {
+  background-color: #f3d7b7;
+  padding: 100px;
+  height: 650px;
+}
+.hero .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.hero-text {
+  width: 447px;
+}
+.hero-text h1 {
+  font-weight: 700;
+  font-style: Bold;
+  font-size: 64px;
+  line-height: 100%;
+  letter-spacing: 0px;
+}
+.hero-text p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0px;
+  margin: 47px 0;
+}
+
+.btn{
+    color: white;
+    border: none;
+    padding: 16px 24px;
+    background-color: #0A775F;
+    border-radius: 30px;
+}
+.hero-img{
+    width: 600px;
+    position: relative;
+}
+.kichik-rasm{
+    position: absolute;
+    top: -100px;
+    left: -100px;
+    animation-name: aylan;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+.katta-rasm{
+    max-width: 600px;
+}
+
+
+@keyframes aylan {
+      from{
+        transform: rotate(0deg);
+      }
+      to{
+        transform: rotate(360deg);
+      }
+}
+.our{
+  padding: 100px 0px;
+  background-color: beige;
+}
+.our h2{
+  text-align: center;
+  font-size: 40px;
+  text-transform: capitalize;
+}
+.card-box{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 100px;
+  margin-top: 30px;
+}
+.card-text{
+  width: 350px;
+}
+.card-text h3{
+  font-size: 34px;
+  margin-bottom: 10px;
+}
+.card-text p{
+  font-size: 20px;
+}
+.card-box img{
+  transition: 0.5s;
+}
+
+.card-box img:hover{
+  transform: scale(1.2);
+}
+footer{
+  padding: 30px 0;
+  background-color: #f3d7b7;
+}
+footer .continer{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.icons{
+  font-size: 24px;
+}
+.commitment{
+  background-color: beige;
+}
+.commitment .continer{
+  padding: 246px 0px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 746px;
+}
+.commitment-text h1{
+font-weight: 700;
+font-style: Bold;
+font-size: 48px;
+line-height: 100%;
+letter-spacing: 0px;
+font-variant: small-caps;
+}
+.commitment-text p{
+font-weight: 400;
+font-size: 18px;
+line-height: 30px;
+letter-spacing: 0px;
+padding: 46px 0px;
+}
+.commitment-img{
+  gap: 746px;
+}
+.ota{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 300px;
+  padding: 160px 0px;
+}
+.quality{
+
+  background-color: #C99B67;
+}
+
+.ota-1{
+  display: flex;
+  justify-content: space-between;
+  gap: 251px;
+}
+.quality-img{
+  margin-top: -114px;
+}
+
